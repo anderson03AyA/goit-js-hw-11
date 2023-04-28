@@ -7,10 +7,30 @@
     <title>Homework 11</title>
   </head>
   <body>
-    <input type="text" id="search-box" >
-    <ul class="country-list"></ul>
-    <div class="country-info"></div>
+    <header>
+      <nav>
+        <form class="search-form" id="search-form">
+          <input
+            type="text"
+            class="search"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button type="submit" class="send">Search</button>
+        </form>
+      </nav>
+    </header>
+
+    <div class="gallery">
+      <!-- Tarjetas de imágenes -->
+    </div>
+    <div class="navegation">
+      <button class="btnBack">Back</button>
+      <button class="btnNext">Next</button>
+    </div>
 
     <script src="index.js" type="module"></script>
   </body>
+  <footer></footer>
 </html>
